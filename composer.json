@@ -1,0 +1,27 @@
+{
+    "name": "iionly/tidypics_image_embed",
+    "description": "Tidypics Image Embed allows to embed an image to a post via Elgg's bundled Embed plugin.",
+    "type": "elgg-plugin",
+    "keywords": [
+        "elgg",
+        "plugin"
+    ],
+    "homepage": "https://github.com/iionly/tidypics_image_embed",
+    "license": "GPL-2.0-only",
+    "authors": [
+        {
+            "name": "iionly",
+            "homepage": "https://github.com/iionly",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+            "issues": "https://github.com/iionly/tidypics_image_embed/issues"
+    },
+    "require": {
+        "composer/installers": ">=1.0.8"
+    },
+    "conflict": {
+        "elgg/elgg": "<4.3"
+    }
+}
